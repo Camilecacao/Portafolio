@@ -1,12 +1,16 @@
+"use client"
 import { Button } from "@nextui-org/react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { motion } from 'framer-motion';
+import { fadeIn } from './utils/motionTransitions';
 
 
 const CardProject = (props) => {
     return(
-        <div className="flex flex-col justify-center items-center min-h-[200px] relative group">
+        <motion.div variants={fadeIn("left", 0.5)} initial="hidden" animate="show" exit="hiddenn"  whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}className="flex flex-col justify-center items-center min-h-[200px] relative group">
             <div className="text-center bg-purple-300 absolute top-0 z-20 p-5 rounded">
                 <h1 className="font-bold">{props.title}</h1>
                 <p>{props.description}</p>
@@ -29,7 +33,7 @@ const CardProject = (props) => {
                 </Link>
             </div>
                 
-        </div>
+        </motion.div>
     );
 };
 
