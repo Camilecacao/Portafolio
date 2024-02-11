@@ -13,7 +13,7 @@ const Card = () => {
             <h2 className='text-2xl font-bold'>Hola soy Camila Espinoza Jaques</h2>
         </div>
         <div>
-            <p className='text-lg'> Soy Desarrolladora Full Stack, una persona proactiva, autónoma, me considero curiosa en el aprendizaje y soy muy sociable</p>
+            <p className='text-lg'> Desarrolladora Full Stack, una persona proactiva, autónoma, me considero curiosa en el aprendizaje y soy muy sociable</p>
         </div>
         <div className='mt-4'>
             <Button color= "secondary" className='py-6 px-5'
