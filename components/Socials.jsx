@@ -27,7 +27,7 @@ const dataSocials= [
 
   return (
     <motion.div className='fixed bottom-0 z-30 flex flex-col items-center w-full mt-auto md:justify-center md:top-1/4 md:left-5 md:w-16 md:w-md h-20'>
-        <div className='flex justify-between px-4 py-3 '> 
+        <div className='flex justify-between px-4 py-3 mx-auto'> 
             {dataSocials.map(({  name, patch, icon}) => (
                 <div key={name}> 
                     <Link href={patch}>

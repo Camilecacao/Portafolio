@@ -11,7 +11,7 @@ export default function CardAbout() {
         </div>
         <div>
             <p className='text-xl px-5 sm:px-20'>Me destaco por contar con habildades laborales para trabajar en equipo y generar un buen ambiente laboral, cuento con habilidades comunicativas y puedo hablar fácilmente frente a una masa de personas.
-            Respecto a mis conocimientos manejo tecnologías como MongoDB, Espress, React, Node, JavaScript, NextJS, TailwindCSS</p>
+            Respecto a mis conocimientos manejo tecnologías como MongoDB, Express, React, Node, JavaScript, NextJS, TailwindCSS</p>
         </div>
     </motion.div>
   )
